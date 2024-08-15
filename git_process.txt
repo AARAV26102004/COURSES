@@ -1,0 +1,680 @@
+
+
+
+
+
+                                                                                                                                                                                         
+┌──(aarav㉿kali)-[~/…/Projects/Backup_Full_Stack/React/eventora]
+└─$ cd ~/Documents/Projects/Backup_Full_Stack/React
+                                                                                                                                                                                         
+┌──(aarav㉿kali)-[~/Documents/Projects/Backup_Full_Stack/React]
+└─$ git init       
+hint: Using 'master' as the name for the initial branch. This default branch name
+hint: is subject to change. To configure the initial branch name to use in all
+hint: of your new repositories, which will suppress this warning, call:
+hint: 
+hint:   git config --global init.defaultBranch <name>
+hint: 
+hint: Names commonly chosen instead of 'master' are 'main', 'trunk' and
+hint: 'development'. The just-created branch can be renamed via this command:
+hint: 
+hint:   git branch -m <name>
+Initialized empty Git repository in /home/aarav/Documents/Projects/Backup_Full_Stack/React/.git/
+                                                                                                                                                                                         
+┌──(aarav㉿kali)-[~/Documents/Projects/Backup_Full_Stack/React]
+└─$ git branch -m master main
+
+                                                                                                                                                                                         
+┌──(aarav㉿kali)-[~/Documents/Projects/Backup_Full_Stack/React]
+└─$ git remote -v                                                               
+                                                                                                                                                                                         
+┌──(aarav㉿kali)-[~/Documents/Projects/Backup_Full_Stack/React]
+└─$ git remote add origin https://github.com/aarav-26/project_eventora_final.git
+
+                                                                                                                                                                                         
+┌──(aarav㉿kali)-[~/Documents/Projects/Backup_Full_Stack/React]
+└─$ git add .
+
+                                                                                                                                                                                         
+┌──(aarav㉿kali)-[~/Documents/Projects/Backup_Full_Stack/React]
+└─$ git commit -m "Final Projects Frontend"          
+
+[main (root-commit) d4e45f7] Final Projects Frontend
+ 151 files changed, 45917 insertions(+)
+ create mode 100644 .vscode/settings.json
+ create mode 100644 eventora/.gitignore
+ create mode 100644 eventora/README.md
+ create mode 100644 eventora/package-lock.json
+ create mode 100644 eventora/package.json
+ create mode 100644 eventora/public/card_img/1.png
+ create mode 100644 eventora/public/card_img/10.jpg
+ create mode 100644 eventora/public/card_img/11.jpg
+ create mode 100644 eventora/public/card_img/12.jpg
+ create mode 100644 eventora/public/card_img/13.jpg
+ create mode 100644 eventora/public/card_img/14.jpg
+ create mode 100644 eventora/public/card_img/15.jpg
+ create mode 100644 eventora/public/card_img/16.jpg
+ create mode 100644 eventora/public/card_img/17.jpg
+ create mode 100644 eventora/public/card_img/18.jpg
+ create mode 100644 eventora/public/card_img/19.jpg
+ create mode 100644 eventora/public/card_img/2.jpg
+ create mode 100644 eventora/public/card_img/20.jpg
+ create mode 100644 eventora/public/card_img/3.jpg
+ create mode 100644 eventora/public/card_img/4.jpg
+ create mode 100644 eventora/public/card_img/5.jpg
+ create mode 100644 eventora/public/card_img/6.jpg
+ create mode 100644 eventora/public/card_img/7.jpg
+ create mode 100644 eventora/public/card_img/8.jpg
+ create mode 100644 eventora/public/card_img/9.jpg
+ create mode 100644 eventora/public/data.json
+ create mode 100644 eventora/public/index.html
+ create mode 100644 eventora/public/logo512.png
+ create mode 100644 eventora/public/manifest.json
+ create mode 100644 eventora/public/robots.txt
+ create mode 100644 eventora/src/App.css
+ create mode 100644 eventora/src/App.js
+ create mode 100644 eventora/src/App.test.js
+ create mode 100644 eventora/src/assets/image1.jpg
+ create mode 100644 eventora/src/assets/image2.jpeg
+ create mode 100644 eventora/src/assets/image3.jpg
+ create mode 100644 eventora/src/assets/image4.png
+ create mode 100644 eventora/src/components/Login.jsx
+ create mode 100644 eventora/src/components/Modal.css
+ create mode 100644 eventora/src/components/Modal.jsx
+ create mode 100644 eventora/src/components/Popup.css
+ create mode 100644 eventora/src/components/Signup.jsx
+ create mode 100644 eventora/src/components/admin/AdminHome.jsx
+ create mode 100644 eventora/src/components/admin/AdminNavbar.css
+ create mode 100644 eventora/src/components/admin/AdminNavbar.jsx
+ create mode 100644 eventora/src/components/admin/CreateEvent.css
+ create mode 100644 eventora/src/components/admin/CreateEvent.jsx
+ create mode 100644 eventora/src/components/admin/EventDetails.css
+ create mode 100644 eventora/src/components/admin/EventDetails.jsx
+ create mode 100644 eventora/src/components/admin/HostedEvents.css
+ create mode 100644 eventora/src/components/admin/HostedEvents.jsx
+ create mode 100644 eventora/src/components/admin/Participants.css
+ create mode 100644 eventora/src/components/admin/Participants.jsx
+ create mode 100644 eventora/src/components/admin/Statistics.css
+ create mode 100644 eventora/src/components/admin/Statistics.jsx
+ create mode 100644 eventora/src/components/data.json
+ create mode 100644 eventora/src/components/user/AllEvents.css
+ create mode 100644 eventora/src/components/user/AllEvents.jsx
+ create mode 100644 eventora/src/components/user/FloatingButton.css
+ create mode 100644 eventora/src/components/user/FloatingButton.jsx
+ create mode 100644 eventora/src/components/user/OtherEvents.jsx
+ create mode 100644 eventora/src/components/user/PopularEvents.jsx
+ create mode 100644 eventora/src/components/user/ProfileForm.jsx
+ create mode 100644 eventora/src/components/user/ProfilePage.css
+ create mode 100644 eventora/src/components/user/Register.css
+ create mode 100644 eventora/src/components/user/Register.jsx
+ create mode 100644 eventora/src/components/user/RegisteredEvents.jsx
+ create mode 100644 eventora/src/components/user/UserNavbar.css
+ create mode 100644 eventora/src/components/user/UserNavbar.jsx
+ create mode 100644 eventora/src/components/user/logo192.png
+ create mode 100644 eventora/src/context/UserContext.jsx
+ create mode 100644 eventora/src/context/VideoPlayer.jsx
+ create mode 100644 eventora/src/context/VideoUpload.jsx
+ create mode 100644 eventora/src/data.json
+ create mode 100644 eventora/src/index.css
+ create mode 100644 eventora/src/index.js
+ create mode 100644 eventora/src/pages/AboutUs.css
+ create mode 100644 eventora/src/pages/AboutUs.jsx
+ create mode 100644 eventora/src/pages/AdminDashboard.css
+ create mode 100644 eventora/src/pages/AdminDashboard.jsx
+ create mode 100644 eventora/src/pages/Footer.css
+ create mode 100644 eventora/src/pages/Footer.jsx
+ create mode 100644 eventora/src/pages/Home.jsx
+ create mode 100644 eventora/src/pages/LandingPage.css
+ create mode 100644 eventora/src/pages/LandingPage.jsx
+ create mode 100644 eventora/src/pages/Support.css
+ create mode 100644 eventora/src/pages/Support.jsx
+ create mode 100644 eventora/src/pages/UserDashboard.css
+ create mode 100644 eventora/src/pages/UserDashboard.jsx
+ create mode 100644 eventora/src/pages/eventora_logo.png
+ create mode 100644 eventora/src/pages/logo.png
+ create mode 100644 eventora/src/reportWebVitals.js
+ create mode 100644 eventora/src/setupTests.js
+ create mode 100644 eventora/src/support.jpg
+ create mode 100644 frontend/.gitignore
+ create mode 100644 frontend/README.md
+ create mode 100644 frontend/package-lock.json
+ create mode 100644 frontend/package.json
+ create mode 100644 frontend/public/favicon.ico
+ create mode 100644 frontend/public/index.html
+ create mode 100644 frontend/public/logo192.png
+ create mode 100644 frontend/public/logo512.png
+ create mode 100644 frontend/public/manifest.json
+ create mode 100644 frontend/public/robots.txt
+ create mode 100644 frontend/src/App.css
+ create mode 100644 frontend/src/App.js
+ create mode 100644 frontend/src/App.test.js
+ create mode 100644 frontend/src/Pages/LandingPage.jsx
+ create mode 100644 frontend/src/Pages/UserDashboard.jsx
+ create mode 100644 frontend/src/Styles/bg-hero.jpg
+ create mode 100644 frontend/src/Styles/event.css
+ create mode 100644 frontend/src/assets/1.png
+ create mode 100644 frontend/src/assets/10.jpg
+ create mode 100644 frontend/src/assets/11.jpg
+ create mode 100644 frontend/src/assets/12.jpg
+ create mode 100644 frontend/src/assets/13.jpg
+ create mode 100644 frontend/src/assets/14.jpg
+ create mode 100644 frontend/src/assets/15.jpg
+ create mode 100644 frontend/src/assets/16.jpg
+ create mode 100644 frontend/src/assets/17.jpg
+ create mode 100644 frontend/src/assets/18.jpg
+ create mode 100644 frontend/src/assets/19.jpg
+ create mode 100644 frontend/src/assets/2.jpg
+ create mode 100644 frontend/src/assets/20.jpg
+ create mode 100644 frontend/src/assets/3.jpg
+ create mode 100644 frontend/src/assets/4.jpg
+ create mode 100644 frontend/src/assets/5.jpg
+ create mode 100644 frontend/src/assets/6.jpg
+ create mode 100644 frontend/src/assets/7.jpg
+ create mode 100644 frontend/src/assets/8.jpg
+ create mode 100644 frontend/src/assets/9.jpg
+ create mode 100644 frontend/src/assets/assets.js
+ create mode 100644 frontend/src/assets/bg-event.jpg
+ create mode 100644 frontend/src/assets/logo.png
+ create mode 100644 frontend/src/components/common/Modal.css
+ create mode 100644 frontend/src/components/common/Modal.jsx
+ create mode 100644 frontend/src/components/login/Login.jsx
+ create mode 100644 frontend/src/components/login/Popup.css
+ create mode 100644 frontend/src/components/login/Signup.jsx
+ create mode 100644 frontend/src/components/user/EventDetails.jsx
+ create mode 100644 frontend/src/components/user/Explore.jsx
+ create mode 100644 frontend/src/components/user/Filter.css
+ create mode 100644 frontend/src/components/user/Filter.jsx
+ create mode 100644 frontend/src/components/user/MapComponent.jsx
+ create mode 100644 frontend/src/components/user/UserHome.jsx
+ create mode 100644 frontend/src/context/UserContext.jsx
+ create mode 100644 frontend/src/index.css
+ create mode 100644 frontend/src/index.js
+ create mode 100644 frontend/src/logo.svg
+ create mode 100644 frontend/src/reportWebVitals.js
+ create mode 100644 frontend/src/setupTests.js
+                                                                                                                                                                                         
+┌──(aarav㉿kali)-[~/Documents/Projects/Backup_Full_Stack/React]
+└─$ git push -u origin main
+To https://github.com/aarav-26/project_eventora_final.git
+ ! [rejected]        main -> main (fetch first)
+error: failed to push some refs to 'https://github.com/aarav-26/project_eventora_final.git'
+hint: Updates were rejected because the remote contains work that you do not
+hint: have locally. This is usually caused by another repository pushing to
+hint: the same ref. If you want to integrate the remote changes, use
+hint: 'git pull' before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+                                                                                                                                                                                         
+┌──(aarav㉿kali)-[~/Documents/Projects/Backup_Full_Stack/React]
+└─$ git fetch origin
+remote: Enumerating objects: 9, done.
+remote: Counting objects: 100% (2/2), done.
+remote: Compressing objects: 100% (2/2), done.
+remote: Total 9 (delta 0), reused 2 (delta 0), pack-reused 7 (from 1)
+Unpacking objects: 100% (9/9), 1.49 KiB | 509.00 KiB/s, done.
+From https://github.com/aarav-26/project_eventora_final
+ * [new branch]      main       -> origin/main
+ * [new branch]      samp       -> origin/samp
+                                                                                                                                                                                         
+┌──(aarav㉿kali)-[~/Documents/Projects/Backup_Full_Stack/React]
+└─$ git pull origin main --rebase
+From https://github.com/aarav-26/project_eventora_final
+ * branch            main       -> FETCH_HEAD
+Successfully rebased and updated refs/heads/main.
+                                                                                                                                                                                         
+┌──(aarav㉿kali)-[~/Documents/Projects/Backup_Full_Stack/React]
+└─$ git push -u origin main
+Enumerating objects: 143, done.
+Counting objects: 100% (143/143), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (138/138), done.
+Writing objects: 100% (142/142), 51.63 MiB | 7.69 MiB/s, done.
+Total 142 (delta 16), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (16/16), done.
+To https://github.com/aarav-26/project_eventora_final.git
+   a8343fe..0cc3c72  main -> main
+branch 'main' set up to track 'origin/main'.
+                                                                                                                                                                                         
+┌──(aarav㉿kali)-[~/Documents/Projects/Backup_Full_Stack/React]
+└─$ 
+
+
+
+
+
+
+
+
+
+########################################################################################################################################################################################
+
+GUIDE FOR GIT HANDLING
+
+                                                                                                                                                                                         
+┌──(aarav㉿kali)-[~/Documents/Projects/Backup_Full_Stack]
+└─$ cd React
+                                                                                                                                                                                         
+┌──(aarav㉿kali)-[~/Documents/Projects/Backup_Full_Stack/React]
+└─$ git init  
+hint: Using 'master' as the name for the initial branch. This default branch name
+hint: is subject to change. To configure the initial branch name to use in all
+hint: of your new repositories, which will suppress this warning, call:
+hint: 
+hint:   git config --global init.defaultBranch <name>
+hint: 
+hint: Names commonly chosen instead of 'master' are 'main', 'trunk' and
+hint: 'development'. The just-created branch can be renamed via this command:
+hint: 
+hint:   git branch -m <name>
+Initialized empty Git repository in /home/aarav/Documents/Projects/Backup_Full_Stack/React/.git/
+                                                                                                                                                                                         
+┌──(aarav㉿kali)-[~/Documents/Projects/Backup_Full_Stack/React]
+└─$ git branch -m master main                   
+                                                                                                                                                                                         
+┌──(aarav㉿kali)-[~/Documents/Projects/Backup_Full_Stack/React]
+└─$ git remote -v                                                               
+                                                                                                                                                                                         
+┌──(aarav㉿kali)-[~/Documents/Projects/Backup_Full_Stack/React]
+└─$ git remote add origin https://github.com/aarav-26/project_eventora_final.git
+
+                                                                                                                                                                                         
+┌──(aarav㉿kali)-[~/Documents/Projects/Backup_Full_Stack/React]
+└─$ git add .                                                                   
+                                                                                                                                                                                         
+┌──(aarav㉿kali)-[~/Documents/Projects/Backup_Full_Stack/React]
+└─$ git commit -m "Final Projects Frontend Eventora"
+
+[main (root-commit) 831a0fe] Final Projects Frontend Eventora
+ 151 files changed, 45917 insertions(+)
+ create mode 100644 .vscode/settings.json
+ create mode 100644 eventora/.gitignore
+ create mode 100644 eventora/README.md
+ create mode 100644 eventora/package-lock.json
+ create mode 100644 eventora/package.json
+ create mode 100644 eventora/public/card_img/1.png
+ create mode 100644 eventora/public/card_img/10.jpg
+ create mode 100644 eventora/public/card_img/11.jpg
+ create mode 100644 eventora/public/card_img/12.jpg
+ create mode 100644 eventora/public/card_img/13.jpg
+ create mode 100644 eventora/public/card_img/14.jpg
+ create mode 100644 eventora/public/card_img/15.jpg
+ create mode 100644 eventora/public/card_img/16.jpg
+ create mode 100644 eventora/public/card_img/17.jpg
+ create mode 100644 eventora/public/card_img/18.jpg
+ create mode 100644 eventora/public/card_img/19.jpg
+ create mode 100644 eventora/public/card_img/2.jpg
+ create mode 100644 eventora/public/card_img/20.jpg
+ create mode 100644 eventora/public/card_img/3.jpg
+ create mode 100644 eventora/public/card_img/4.jpg
+ create mode 100644 eventora/public/card_img/5.jpg
+ create mode 100644 eventora/public/card_img/6.jpg
+ create mode 100644 eventora/public/card_img/7.jpg
+ create mode 100644 eventora/public/card_img/8.jpg
+ create mode 100644 eventora/public/card_img/9.jpg
+ create mode 100644 eventora/public/data.json
+ create mode 100644 eventora/public/index.html
+ create mode 100644 eventora/public/logo512.png
+ create mode 100644 eventora/public/manifest.json
+ create mode 100644 eventora/public/robots.txt
+ create mode 100644 eventora/src/App.css
+ create mode 100644 eventora/src/App.js
+ create mode 100644 eventora/src/App.test.js
+ create mode 100644 eventora/src/assets/image1.jpg
+ create mode 100644 eventora/src/assets/image2.jpeg
+ create mode 100644 eventora/src/assets/image3.jpg
+ create mode 100644 eventora/src/assets/image4.png
+ create mode 100644 eventora/src/components/Login.jsx
+ create mode 100644 eventora/src/components/Modal.css
+ create mode 100644 eventora/src/components/Modal.jsx
+ create mode 100644 eventora/src/components/Popup.css
+ create mode 100644 eventora/src/components/Signup.jsx
+ create mode 100644 eventora/src/components/admin/AdminHome.jsx
+ create mode 100644 eventora/src/components/admin/AdminNavbar.css
+ create mode 100644 eventora/src/components/admin/AdminNavbar.jsx
+ create mode 100644 eventora/src/components/admin/CreateEvent.css
+ create mode 100644 eventora/src/components/admin/CreateEvent.jsx
+ create mode 100644 eventora/src/components/admin/EventDetails.css
+ create mode 100644 eventora/src/components/admin/EventDetails.jsx
+ create mode 100644 eventora/src/components/admin/HostedEvents.css
+ create mode 100644 eventora/src/components/admin/HostedEvents.jsx
+ create mode 100644 eventora/src/components/admin/Participants.css
+ create mode 100644 eventora/src/components/admin/Participants.jsx
+ create mode 100644 eventora/src/components/admin/Statistics.css
+ create mode 100644 eventora/src/components/admin/Statistics.jsx
+ create mode 100644 eventora/src/components/data.json
+ create mode 100644 eventora/src/components/user/AllEvents.css
+ create mode 100644 eventora/src/components/user/AllEvents.jsx
+ create mode 100644 eventora/src/components/user/FloatingButton.css
+ create mode 100644 eventora/src/components/user/FloatingButton.jsx
+ create mode 100644 eventora/src/components/user/OtherEvents.jsx
+ create mode 100644 eventora/src/components/user/PopularEvents.jsx
+ create mode 100644 eventora/src/components/user/ProfileForm.jsx
+ create mode 100644 eventora/src/components/user/ProfilePage.css
+ create mode 100644 eventora/src/components/user/Register.css
+ create mode 100644 eventora/src/components/user/Register.jsx
+ create mode 100644 eventora/src/components/user/RegisteredEvents.jsx
+ create mode 100644 eventora/src/components/user/UserNavbar.css
+ create mode 100644 eventora/src/components/user/UserNavbar.jsx
+ create mode 100644 eventora/src/components/user/logo192.png
+ create mode 100644 eventora/src/context/UserContext.jsx
+ create mode 100644 eventora/src/context/VideoPlayer.jsx
+ create mode 100644 eventora/src/context/VideoUpload.jsx
+ create mode 100644 eventora/src/data.json
+ create mode 100644 eventora/src/index.css
+ create mode 100644 eventora/src/index.js
+ create mode 100644 eventora/src/pages/AboutUs.css
+ create mode 100644 eventora/src/pages/AboutUs.jsx
+ create mode 100644 eventora/src/pages/AdminDashboard.css
+ create mode 100644 eventora/src/pages/AdminDashboard.jsx
+ create mode 100644 eventora/src/pages/Footer.css
+ create mode 100644 eventora/src/pages/Footer.jsx
+ create mode 100644 eventora/src/pages/Home.jsx
+ create mode 100644 eventora/src/pages/LandingPage.css
+ create mode 100644 eventora/src/pages/LandingPage.jsx
+ create mode 100644 eventora/src/pages/Support.css
+ create mode 100644 eventora/src/pages/Support.jsx
+ create mode 100644 eventora/src/pages/UserDashboard.css
+ create mode 100644 eventora/src/pages/UserDashboard.jsx
+ create mode 100644 eventora/src/pages/eventora_logo.png
+ create mode 100644 eventora/src/pages/logo.png
+ create mode 100644 eventora/src/reportWebVitals.js
+ create mode 100644 eventora/src/setupTests.js
+ create mode 100644 eventora/src/support.jpg
+ create mode 100644 frontend/.gitignore
+ create mode 100644 frontend/README.md
+ create mode 100644 frontend/package-lock.json
+ create mode 100644 frontend/package.json
+ create mode 100644 frontend/public/favicon.ico
+ create mode 100644 frontend/public/index.html
+ create mode 100644 frontend/public/logo192.png
+ create mode 100644 frontend/public/logo512.png
+ create mode 100644 frontend/public/manifest.json
+ create mode 100644 frontend/public/robots.txt
+ create mode 100644 frontend/src/App.css
+ create mode 100644 frontend/src/App.js
+ create mode 100644 frontend/src/App.test.js
+ create mode 100644 frontend/src/Pages/LandingPage.jsx
+ create mode 100644 frontend/src/Pages/UserDashboard.jsx
+ create mode 100644 frontend/src/Styles/bg-hero.jpg
+ create mode 100644 frontend/src/Styles/event.css
+ create mode 100644 frontend/src/assets/1.png
+ create mode 100644 frontend/src/assets/10.jpg
+ create mode 100644 frontend/src/assets/11.jpg
+ create mode 100644 frontend/src/assets/12.jpg
+ create mode 100644 frontend/src/assets/13.jpg
+ create mode 100644 frontend/src/assets/14.jpg
+ create mode 100644 frontend/src/assets/15.jpg
+ create mode 100644 frontend/src/assets/16.jpg
+ create mode 100644 frontend/src/assets/17.jpg
+ create mode 100644 frontend/src/assets/18.jpg
+ create mode 100644 frontend/src/assets/19.jpg
+ create mode 100644 frontend/src/assets/2.jpg
+ create mode 100644 frontend/src/assets/20.jpg
+ create mode 100644 frontend/src/assets/3.jpg
+ create mode 100644 frontend/src/assets/4.jpg
+ create mode 100644 frontend/src/assets/5.jpg
+ create mode 100644 frontend/src/assets/6.jpg
+ create mode 100644 frontend/src/assets/7.jpg
+ create mode 100644 frontend/src/assets/8.jpg
+ create mode 100644 frontend/src/assets/9.jpg
+ create mode 100644 frontend/src/assets/assets.js
+ create mode 100644 frontend/src/assets/bg-event.jpg
+ create mode 100644 frontend/src/assets/logo.png
+ create mode 100644 frontend/src/components/common/Modal.css
+ create mode 100644 frontend/src/components/common/Modal.jsx
+ create mode 100644 frontend/src/components/login/Login.jsx
+ create mode 100644 frontend/src/components/login/Popup.css
+ create mode 100644 frontend/src/components/login/Signup.jsx
+ create mode 100644 frontend/src/components/user/EventDetails.jsx
+ create mode 100644 frontend/src/components/user/Explore.jsx
+ create mode 100644 frontend/src/components/user/Filter.css
+ create mode 100644 frontend/src/components/user/Filter.jsx
+ create mode 100644 frontend/src/components/user/MapComponent.jsx
+ create mode 100644 frontend/src/components/user/UserHome.jsx
+ create mode 100644 frontend/src/context/UserContext.jsx
+ create mode 100644 frontend/src/index.css
+ create mode 100644 frontend/src/index.js
+ create mode 100644 frontend/src/logo.svg
+ create mode 100644 frontend/src/reportWebVitals.js
+ create mode 100644 frontend/src/setupTests.js
+                                                                                                                                                                                         
+┌──(aarav㉿kali)-[~/Documents/Projects/Backup_Full_Stack/React]
+└─$ git push -u origin main                         
+Enumerating objects: 142, done.
+Counting objects: 100% (142/142), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (138/138), done.
+Writing objects: 100% (142/142), 51.63 MiB | 7.91 MiB/s, done.
+Total 142 (delta 16), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (16/16), done.
+To https://github.com/aarav-26/project_eventora_final.git
+ * [new branch]      main -> main
+branch 'main' set up to track 'origin/main'.
+                                                                                                                                                                                         
+┌──(aarav㉿kali)-[~/Documents/Projects/Backup_Full_Stack/React]
+└─$ cd ..   
+                                                                                                                                                                                         
+┌──(aarav㉿kali)-[~/Documents/Projects/Backup_Full_Stack]
+└─$ git init               
+hint: Using 'master' as the name for the initial branch. This default branch name
+hint: is subject to change. To configure the initial branch name to use in all
+hint: of your new repositories, which will suppress this warning, call:
+hint: 
+hint:   git config --global init.defaultBranch <name>
+hint: 
+hint: Names commonly chosen instead of 'master' are 'main', 'trunk' and
+hint: 'development'. The just-created branch can be renamed via this command:
+hint: 
+hint:   git branch -m <name>
+Initialized empty Git repository in /home/aarav/Documents/Projects/Backup_Full_Stack/.git/
+                                                                                                                                                                                         
+┌──(aarav㉿kali)-[~/Documents/Projects/Backup_Full_Stack]
+└─$ git branch -m master main
+                                                                                                                                                                                         
+┌──(aarav㉿kali)-[~/Documents/Projects/Backup_Full_Stack]
+└─$ git remote add origin https://github.com/aarav-26/project_eventora_final.git
+
+                                                                                                                                                                                         
+┌──(aarav㉿kali)-[~/Documents/Projects/Backup_Full_Stack]
+└─$ git checkout -b sample                                                      
+Switched to a new branch 'sample'
+                                                                                                                                                                                         
+┌──(aarav㉿kali)-[~/Documents/Projects/Backup_Full_Stack]
+└─$ git add event         
+                                                                                                                                                                                         
+┌──(aarav㉿kali)-[~/Documents/Projects/Backup_Full_Stack]
+└─$ git commit -m "Final Projects Backend Eventora" 
+
+[sample (root-commit) 0f3d66c] Final Projects Backend Eventora
+ 29 files changed, 1436 insertions(+)
+ create mode 100644 event/.gitignore
+ create mode 100644 event/.mvn/wrapper/maven-wrapper.properties
+ create mode 100755 event/mvnw
+ create mode 100644 event/mvnw.cmd
+ create mode 100644 event/pom.xml
+ create mode 100644 event/src/main/java/com/project/event/EventApplication.java
+ create mode 100644 event/src/main/java/com/project/event/config/CustomLocalTimeDeserializer.java
+ create mode 100644 event/src/main/java/com/project/event/config/JacksonConfig.java
+ create mode 100644 event/src/main/java/com/project/event/controller/AdminsController.java
+ create mode 100644 event/src/main/java/com/project/event/controller/EventsController.java
+ create mode 100644 event/src/main/java/com/project/event/controller/UserController.java
+ create mode 100644 event/src/main/java/com/project/event/dto/StatisticsResponse.java
+ create mode 100644 event/src/main/java/com/project/event/dto/UserEventDTO.java
+ create mode 100644 event/src/main/java/com/project/event/dto/UserUpdateDTO.java
+ create mode 100644 event/src/main/java/com/project/event/model/AdminEvent.java
+ create mode 100644 event/src/main/java/com/project/event/model/Admins.java
+ create mode 100644 event/src/main/java/com/project/event/model/Events.java
+ create mode 100644 event/src/main/java/com/project/event/model/UserEvent.java
+ create mode 100644 event/src/main/java/com/project/event/model/Users.java
+ create mode 100644 event/src/main/java/com/project/event/repository/AdminEventRepo.java
+ create mode 100644 event/src/main/java/com/project/event/repository/AdminsRepo.java
+ create mode 100644 event/src/main/java/com/project/event/repository/EventsRepo.java
+ create mode 100644 event/src/main/java/com/project/event/repository/UserEventRepo.java
+ create mode 100644 event/src/main/java/com/project/event/repository/UserRepo.java
+ create mode 100644 event/src/main/java/com/project/event/service/AdminsService.java
+ create mode 100644 event/src/main/java/com/project/event/service/EventsService.java
+ create mode 100644 event/src/main/java/com/project/event/service/UserService.java
+ create mode 100644 event/src/main/resources/application.properties
+ create mode 100644 event/src/test/java/com/project/event/EventApplicationTests.java
+                                                                                                                                                                                         
+┌──(aarav㉿kali)-[~/Documents/Projects/Backup_Full_Stack]
+└─$ git push -u origin sample                      
+Enumerating objects: 52, done.
+Counting objects: 100% (52/52), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (43/43), done.
+Writing objects: 100% (52/52), 17.53 KiB | 2.50 MiB/s, done.
+Total 52 (delta 9), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (9/9), done.
+remote: 
+remote: Create a pull request for 'sample' on GitHub by visiting:
+remote:      https://github.com/aarav-26/project_eventora_final/pull/new/sample
+remote: 
+To https://github.com/aarav-26/project_eventora_final.git
+ * [new branch]      sample -> sample
+branch 'sample' set up to track 'origin/sample'.
+                                                                                                                                                                                         
+┌──(aarav㉿kali)-[~/Documents/Projects/Backup_Full_Stack]
+└─$ git branch                                     
+* sample
+                                                                                                                                                                                         
+┌──(aarav㉿kali)-[~/Documents/Projects/Backup_Full_Stack]
+└─$ git branch -a            
+* sample
+  remotes/origin/sample
+                                                                                                                                                                                         
+┌──(aarav㉿kali)-[~/Documents/Projects/Backup_Full_Stack]
+└─$ git fetch origin
+
+                                                                                                                                                                                         
+┌──(aarav㉿kali)-[~/Documents/Projects/Backup_Full_Stack]
+└─$ git checkout main
+
+branch 'main' set up to track 'origin/main'.
+Switched to a new branch 'main'
+                                                                                                                                                                                         
+┌──(aarav㉿kali)-[~/Documents/Projects/Backup_Full_Stack]
+└─$ git branch       
+* main
+  sample
+                                                                                                                                                                                         
+┌──(aarav㉿kali)-[~/Documents/Projects/Backup_Full_Stack]
+└─$ git merge sample                            
+fatal: refusing to merge unrelated histories
+                                                                                                                                                                                         
+┌──(aarav㉿kali)-[~/Documents/Projects/Backup_Full_Stack]
+└─$ git merge sample --allow-unrelated-histories
+
+Merge made by the 'ort' strategy.
+ event/.gitignore                                                              |  33 +++++++++++++
+ event/.mvn/wrapper/maven-wrapper.properties                                   |  19 ++++++++
+ event/mvnw                                                                    | 259 +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ event/mvnw.cmd                                                                | 149 +++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ event/pom.xml                                                                 | 104 ++++++++++++++++++++++++++++++++++++++++
+ event/src/main/java/com/project/event/EventApplication.java                   |  15 ++++++
+ event/src/main/java/com/project/event/config/CustomLocalTimeDeserializer.java |  26 ++++++++++
+ event/src/main/java/com/project/event/config/JacksonConfig.java               |  26 ++++++++++
+ event/src/main/java/com/project/event/controller/AdminsController.java        |  74 +++++++++++++++++++++++++++++
+ event/src/main/java/com/project/event/controller/EventsController.java        |  56 ++++++++++++++++++++++
+ event/src/main/java/com/project/event/controller/UserController.java          |  82 ++++++++++++++++++++++++++++++++
+ event/src/main/java/com/project/event/dto/StatisticsResponse.java             |  14 ++++++
+ event/src/main/java/com/project/event/dto/UserEventDTO.java                   |  41 ++++++++++++++++
+ event/src/main/java/com/project/event/dto/UserUpdateDTO.java                  |  19 ++++++++
+ event/src/main/java/com/project/event/model/AdminEvent.java                   |  27 +++++++++++
+ event/src/main/java/com/project/event/model/Admins.java                       |  33 +++++++++++++
+ event/src/main/java/com/project/event/model/Events.java                       |  83 ++++++++++++++++++++++++++++++++
+ event/src/main/java/com/project/event/model/UserEvent.java                    |  32 +++++++++++++
+ event/src/main/java/com/project/event/model/Users.java                        |  31 ++++++++++++
+ event/src/main/java/com/project/event/repository/AdminEventRepo.java          |  17 +++++++
+ event/src/main/java/com/project/event/repository/AdminsRepo.java              |  13 +++++
+ event/src/main/java/com/project/event/repository/EventsRepo.java              |  13 +++++
+ event/src/main/java/com/project/event/repository/UserEventRepo.java           |  26 ++++++++++
+ event/src/main/java/com/project/event/repository/UserRepo.java                |  18 +++++++
+ event/src/main/java/com/project/event/service/AdminsService.java              |  63 ++++++++++++++++++++++++
+ event/src/main/java/com/project/event/service/EventsService.java              |  49 +++++++++++++++++++
+ event/src/main/java/com/project/event/service/UserService.java                |  88 ++++++++++++++++++++++++++++++++++
+ event/src/main/resources/application.properties                               |  13 +++++
+ event/src/test/java/com/project/event/EventApplicationTests.java              |  13 +++++
+ 29 files changed, 1436 insertions(+)
+ create mode 100644 event/.gitignore
+ create mode 100644 event/.mvn/wrapper/maven-wrapper.properties
+ create mode 100755 event/mvnw
+ create mode 100644 event/mvnw.cmd
+ create mode 100644 event/pom.xml
+ create mode 100644 event/src/main/java/com/project/event/EventApplication.java
+ create mode 100644 event/src/main/java/com/project/event/config/CustomLocalTimeDeserializer.java
+ create mode 100644 event/src/main/java/com/project/event/config/JacksonConfig.java
+ create mode 100644 event/src/main/java/com/project/event/controller/AdminsController.java
+ create mode 100644 event/src/main/java/com/project/event/controller/EventsController.java
+ create mode 100644 event/src/main/java/com/project/event/controller/UserController.java
+ create mode 100644 event/src/main/java/com/project/event/dto/StatisticsResponse.java
+ create mode 100644 event/src/main/java/com/project/event/dto/UserEventDTO.java
+ create mode 100644 event/src/main/java/com/project/event/dto/UserUpdateDTO.java
+ create mode 100644 event/src/main/java/com/project/event/model/AdminEvent.java
+ create mode 100644 event/src/main/java/com/project/event/model/Admins.java
+ create mode 100644 event/src/main/java/com/project/event/model/Events.java
+ create mode 100644 event/src/main/java/com/project/event/model/UserEvent.java
+ create mode 100644 event/src/main/java/com/project/event/model/Users.java
+ create mode 100644 event/src/main/java/com/project/event/repository/AdminEventRepo.java
+ create mode 100644 event/src/main/java/com/project/event/repository/AdminsRepo.java
+ create mode 100644 event/src/main/java/com/project/event/repository/EventsRepo.java
+ create mode 100644 event/src/main/java/com/project/event/repository/UserEventRepo.java
+ create mode 100644 event/src/main/java/com/project/event/repository/UserRepo.java
+ create mode 100644 event/src/main/java/com/project/event/service/AdminsService.java
+ create mode 100644 event/src/main/java/com/project/event/service/EventsService.java
+ create mode 100644 event/src/main/java/com/project/event/service/UserService.java
+ create mode 100644 event/src/main/resources/application.properties
+ create mode 100644 event/src/test/java/com/project/event/EventApplicationTests.java
+                                                                                                                                                                                         
+┌──(aarav㉿kali)-[~/Documents/Projects/Backup_Full_Stack]
+└─$ git push -u origin main                     
+Enumerating objects: 4, done.
+Counting objects: 100% (4/4), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (2/2), 357 bytes | 357.00 KiB/s, done.
+Total 2 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/aarav-26/project_eventora_final.git
+   831a0fe..ebeeb5a  main -> main
+branch 'main' set up to track 'origin/main'.
+                                                                                                                                                                                         
+############################################################################################################################################
+
+COMMANDS
+
+
+git init   ///outside the folder
+git remote -v ///if already init and pushed if created new init no worry
+git remote add origin <https://github.com/aarav-26/repo_name.git>   // remote connection established
+git add . /// for all folders and files
+git add foldername or filename // for specify files
+git commit -m "Message for Commit"
+git push -u origin branch_name //default branch name main
+if error occurs 
+
+git fetch origin 
+git pull origin main --rebase
+git push -u origin main
+
+
+done
+
+if make changes then u have to create new branch and push then merge from origin
+
+git remote add orgin link or git init for newfolder
+git checkout -b new_branchname ///may be sample for further command 
+git add .
+git commit -m "Message"
+git push -u origin sample
+
+git fetch origin // to come out from the current branch
+git branch  // to check number of branches
+git merge sample // if error occurs
+git merge sample --allow-unrelated-histories /// ctrl +x linux save 
+
+
+git push -u origin main
+
+
+
+#########################################################################################################       FINALLY U DONE
+
